@@ -1,0 +1,53 @@
+.footer{
+    background-color: #0A0808;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-info{
+    width: 207px;
+}
+.footer-section{
+    color: gray;
+}
+.footer-link{
+    color: gray;
+    &:hover{
+        color: white;
+    }
+}
+.footer-form-input{
+    padding: 12px 50px;
+    border: 2px solid $pink;
+    &:focus {
+        outline: 2px solid $pink;
+    }
+}
+.footer-socials-title{
+    color: white;
+}
+.footer-section-title{
+    color: white;
+}
+.footer-form{
+    position: relative;
+}
+.footer-form-button{
+    position: absolute;
+    right: -120px;
+}
+.footer-socials{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90px;
+}
+.footer-pay-list{
+    margin-top: 50px;
+    display: flex;
+    max-width: 130px;
+    justify-content: space-between;
+}

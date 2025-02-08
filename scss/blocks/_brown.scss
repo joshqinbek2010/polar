@@ -1,0 +1,15 @@
+.brown{
+    background-color: $pink-background;
+    padding: 10px 0;
+}
+.brown-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brown-content{
+    max-width: 442px;
+}
+.brown-text{
+    margin-bottom: 30px;
+}

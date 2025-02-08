@@ -1,0 +1,46 @@
+.question{
+    margin-top: 80px;
+    text-align: center;
+}
+.question-container {
+    max-width: 640px;
+}
+.question-title {
+    max-width: 522px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+.question-input {
+    border: 1px solid $pink;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    &:focus {
+        outline: 2px solid $pink;
+    }
+}
+.question-input-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    position: relative;
+}
+.question-group {
+    width: 273px;
+}
+.question-input{
+    padding-right: 130px;
+}
+.question-button {
+    position: absolute;
+    right: 0;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 35px;
+}
